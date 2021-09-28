@@ -1,4 +1,12 @@
 [[package]]
+name = "pyqt5designer"
+version = "5.14.1"
+description = "PyQt5 Designer"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pyside2"
 version = "5.15.2"
 description = "Python bindings for the Qt cross-platform application and UI framework"
@@ -28,9 +36,13 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <3.10"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8, <3.10"
-content-hash = "d1c97a16fab20fcc53562a55c9bd20752091cc1f075520d1a120f982d0891e3b"
+content-hash = "37875842e775025333efef30450dcda408c34060fd3d74247d012a794714f7c2"
 
 [metadata.files]
+pyqt5designer = [
+    {file = "PyQt5Designer-5.14.1-py3-none-win32.whl", hash = "sha256:9d22b4f0f47d81859f253850f2a2d66e29011b4a380541b6a891e035a0914769"},
+    {file = "PyQt5Designer-5.14.1-py3-none-win_amd64.whl", hash = "sha256:af4356b77412807d0fe4013737a9025fec3d5cd765bea4eff9a48071c25313ea"},
+]
 pyside2 = [
     {file = "PySide2-5.15.2-5.15.2-cp27-cp27m-macosx_10_13_intel.whl", hash = "sha256:4f17a0161995678110447711d685fcd7b15b762810e8f00f6dc239bffb70a32e"},
     {file = "PySide2-5.15.2-5.15.2-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:0558ced3bcd7f9da638fa8b7709dba5dae82a38728e481aac8b9058ea22fcdd9"},
